@@ -1,0 +1,60 @@
+{
+  "name": "PolyBlox",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules"
+      },
+      "RemoteEvents": {
+        "$className": "Folder",
+        "RequestTrade": { "$className": "RemoteEvent" },
+        "RequestPurchase": { "$className": "RemoteEvent" },
+        "MarketUpdate": { "$className": "RemoteEvent" },
+        "ResolutionAnnounced": { "$className": "RemoteEvent" },
+        "LiquidationTriggered": { "$className": "RemoteEvent" },
+        "PlayerDataUpdate": { "$className": "RemoteEvent" },
+        "RequestCopyTrade": { "$className": "RemoteEvent" },
+        "LeaderboardUpdate": { "$className": "RemoteEvent" }
+      },
+      "Assets": {
+        "$className": "Folder",
+        "Placeholders": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Systems": {
+        "$path": "src/ServerScriptService/Systems"
+      },
+      "DataStore": {
+        "$path": "src/ServerScriptService/DataStore"
+      },
+      "Bootstrap": {
+        "$path": "src/ServerScriptService/Bootstrap.server.lua"
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "MarketConfigs": {
+        "$path": "src/ServerStorage/MarketConfigs"
+      },
+      "Tests": {
+        "$path": "tests"
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "MainUI": {
+        "$path": "src/StarterGui/MainUI"
+      }
+    }
+  }
+}

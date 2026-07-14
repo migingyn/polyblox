@@ -1,0 +1,15 @@
+# Rojo build output
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Wally packages (installed from wally.toml)
+/Packages/
+/DevPackages/
+/ServerPackages/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,5 @@
+std = "roblox"
+
+[rules]
+# TestEZ globals (describe/it/expect) are provided by the test runner at runtime.
+global_usage = "allow"
